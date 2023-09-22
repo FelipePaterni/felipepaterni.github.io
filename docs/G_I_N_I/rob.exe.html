@@ -62,15 +62,13 @@
                 var minhaUrl = "https://felipepaterni.github.io/docs/G_I_N_I/";
                 link.href = minhaUrl;
                     break;
-                    case "links":
-                    resultado = "https://web.whatsapp.com/";
+                    case "status":
+                    resultado = "sistema offline. Impossivel de executar";
                     break;
-                    case "links":
-                    resultado = "https://web.whatsapp.com/";
-                    break;
+                   
                 // Adicione mais cases para outros comandos e resultados aqui
                 default:
-                    resultado = "Comando não reconhecido.";
+                    resultado = "Comando não reconhecido. Impossivel de executar.";
             }
 
             document.getElementById("resultadoTexto").textContent = resultado;
