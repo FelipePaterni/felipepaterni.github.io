@@ -9,6 +9,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <title>??????</title>
+    <script>
+    function exibirResposta() {
+        var resposta= document.getElementById("nome").value;
+       
+        // Construa a URL com os parâmetros da resposta
+        var url = "./" + resposta +".html";
+        
+        // Redirecione para a URL com os parâmetros da resposta
+        window.location.href = url;
+    }
+</script>
+
   </head>
   <body>
     <div class="card bg-dark text-white ">
